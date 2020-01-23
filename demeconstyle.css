@@ -24,7 +24,7 @@ ul.topnav li {
 ul.topnav li a {
     display: block;
     color: #121f83;
-    font-family: karla;
+    font-family: roboto;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -114,7 +114,7 @@ a {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-family: karla;
+    font-family: roboto;
     font-weight: bold;
     font-size: 16px;
     border-radius: 8px;
@@ -141,7 +141,7 @@ a {
     background-position: center;
     padding: 8%;
     text-align: center;
-    font-family: karla;
+    font-family: roboto;
     color: #ffffff;
     margin-bottom: 20px;
     }
@@ -153,7 +153,7 @@ a {
     background-position: center;
     padding: 10px;
     text-align: center;
-    font-family: karla;
+    font-family: roboto;
     color: #ffffff;
     margin-bottom: 20px;
     margin-top: 50px;
@@ -171,7 +171,7 @@ a {
     background-attachment: fixed;
     padding: 300px;
     text-align: center;
-    font-family: karla;
+    font-family: roboto;
     color: #ffffff;
     margin-bottom: 5px;
     
@@ -183,7 +183,7 @@ a {
     background-attachment: fixed;
     padding: 10px;
     text-align: center;
-    font-family: karla;
+    font-family: roboto;
     color: #ffffff;
     margin-bottom: 20px;
     margin-top: 50px;
@@ -195,7 +195,7 @@ a {
     background-attachment: fixed;
     padding: 300px;
     text-align: center;
-    font-family: karla;
+    font-family: roboto;
     color: #ffffff;
     margin-bottom: 5px;
 }
@@ -206,7 +206,7 @@ a {
     background-attachment: fixed;
     padding: 10px;
     text-align: center;
-    font-family: karla;
+    font-family: roboto;
     color: #ffffff;
     margin-bottom: 20px;
     margin-top: 50px;
@@ -227,7 +227,7 @@ a {
 
 .blurb {
     color: #0b113c;
-    font-family: karla;
+    font-family: roboto;
     text-align: left;
     margin-left: 5%;
     margin-right: 5%;
@@ -238,7 +238,7 @@ a {
 
 .quote {
     color: #121f83;
-    font-family: karla;
+    font-family: roboto;
     text-align: left;
     font-size: 30px;
     padding-left: 20px;
@@ -284,19 +284,23 @@ ul {
 
 /* INFOMRATION */
 
+@media screen and (max-width: 600px) {
+    .infowrapper {float: none;}
+}
+
 .field{
     background-color: #121f8348;
     padding: 10px 10% 10px 10px ;
     text-align: left;
     border-radius: 8px;  
     font-size: 15px;  
-    font-family: karla;
+    font-family: roboto;
 }
 
 .light{
     color: gray;
     font-size: 15px;
-    font-family: karla;
+    font-family: roboto;
 }
 
 .infowrapper {
