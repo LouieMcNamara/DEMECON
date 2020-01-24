@@ -173,11 +173,12 @@ a {
     background: url(./IMAGES/CaseStudy01.jpg) no-repeat top; 
     background-size: cover;
     background-attachment: fixed;
-    padding: 300px;
+    padding: 500px;
     text-align: center;
     font-family: karla;
     color: #ffffff;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
     
 }
 
@@ -197,11 +198,12 @@ a {
     background: url(./IMAGES/CaseStudy02.jpg) no-repeat top; 
     background-size: cover;
     background-attachment: fixed;
-    padding: 300px;
+    padding: 500px;
     text-align: center;
     font-family: karla;
     color: #ffffff;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .casestudyimage2head{
