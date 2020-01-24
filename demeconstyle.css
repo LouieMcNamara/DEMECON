@@ -135,6 +135,10 @@ a {
 
 /* IMAGES */
 
+@media screen and (max-width: 600px) {
+    img {float: none;}
+}
+
 .headerImage{
     background: url(./IMAGES/Demecon03.jpg) no-repeat bottom; 
     background-size: cover;
@@ -303,13 +307,13 @@ ul {
     text-align: left;
     border-radius: 8px;  
     font-size: 15px;  
-    font-family: roboto;
+    font-family: karla;
 }
 
 .light{
     color: gray;
     font-size: 15px;
-    font-family: roboto;
+    font-family: karla;
 }
 
 .infowrapper {
