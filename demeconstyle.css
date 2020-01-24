@@ -135,8 +135,8 @@ a {
 
 /* IMAGES */
 
-@media screen and (max-width: 600px) {
-    img {float: none;}
+@media screen and (max-width: 767px) {
+    .brandImage, .headerImage, .casestudyimage1, .casestudyimage1head, .casestudyimage2, .casestudyimage2head {background-attachment: initial;}
 }
 
 .headerImage{
