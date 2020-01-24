@@ -1,5 +1,7 @@
 /* NAVIGATION */
-
+html{
+    scroll-behavior: smooth;
+}
 #header{
     padding-top: 15%;
     padding-bottom: 15%;

@@ -1,0 +1,121 @@
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: karla;
+}
+
+nav li{
+    display: inline-block;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 33% 33% 33%;
+    background-color: #fff;
+    color: #444;
+    margin: 1%;
+}
+
+.box {
+    background-color: rgb(233, 233, 233);
+    color: #0b1877;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.a {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+.b {
+    grid-column: 3 ;
+    grid-row: 1 / span 2;
+}
+.c {
+    grid-column: 1 /span 2;
+    grid-row: 2 ;
+}
+.d {
+    grid-column: 1 /span 3 ;
+    grid-row: 3 ;
+}
+
+.e {
+    grid-column: 1 / span 3 ;
+    grid-row: 4 ;
+}
+
+.g {
+    grid-column: 1 /span 3 ;
+    grid-row: 5 ;
+}
+
+.h {
+    grid-column: 1 ;
+    grid-row: 6 ;
+}
+.i {
+    grid-column: 2 /span 2 ;
+    grid-row: 6 ;
+
+}
+
+
+.d li{
+    list-style-image: url(./IMAGES/TriangleBullet.png);
+    padding: 5px;
+}
+.e li{
+    list-style-image: url(./IMAGES/TriangleBullet.png);
+    padding: 5px;
+}
+
+.infowrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 50% 50%;
+    background-color: #444;
+    color: #444;
+    margin: 1%;
+}
+
+.infobox {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.infotitle{
+    color: gray;
+}
+
+.navbutton{
+    background-color: #0b1877;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px 15px;
+}
+li{
+    margin: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color: #0b1877;
+    background-color: white;
+}
+
