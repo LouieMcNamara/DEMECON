@@ -18,18 +18,13 @@ html{
 ul.topnav {
     list-style-type: none;
     margin: 2%;
-    padding: 0;
+    padding: 5px 10px;
     overflow: hidden;
-    background-color:  rgba(255, 255, 255, 0.848);
+    background-color:  rgba(255, 255, 255, 0.803);
+    border-radius: 8px;
 }
 
-ul.topnav2 {
-    list-style-type: none;
-    padding: 15px;
-    border-radius: 10px;
-    overflow: hidden;
-    background-color:  rgba(255, 255, 255, 0.755);
-}
+
   
 #logonohover a:hover:not(.active) {
     background-color: rgba(255, 255, 255, 0.848);
@@ -38,12 +33,11 @@ ul.topnav2 {
 ul.topnav li {
     float: left;
     margin-right: 10px;
+    margin-bottom: 2px;
+    margin-top: 2px;
 }
 
-ul.topnav2 li {
-    float: left;
-    margin: 5px;
-}
+
   
 ul.topnav li a {
     display: block;
@@ -54,17 +48,10 @@ ul.topnav li a {
     text-decoration: none;
 }
 
-ul.topnav2 li a {
-    display: block;
-    color: #121f83;
-    font-family: karla;
-    text-align: center;
-    padding: 18px 25px;
-    text-decoration: none;
-}
+
 
 #phone{
-    padding: 18px 30px;
+    padding: 10px 20px;
 }
 
 .phone{
@@ -79,11 +66,6 @@ ul.topnav li a:hover:not(.active) {
     border-radius: 8px;
 }
 
-ul.topnav2 li a:hover:not(.active) {
-    background-color: #0b1877f1;
-    color: white;
-    border-radius: 8px;
-}
   
 ul.topnav li a.active {
     list-style-type: none;
@@ -92,26 +74,16 @@ ul.topnav li a.active {
     border-radius: 8px;
 }
 
-ul.topnav2 li a.active {
-    list-style-type: none;
-    background-color:  #0b1877;
-    color: white;
-    border-radius: 8px;
-}
   
 ul.topnav li.right {
     float: right;
 }
 
-ul.topnav2 li.right {
-    float: right;
-}
+
   
 @media screen and (max-width: 600px) {
     ul.topnav li.right, 
-    ul.topnav li, 
-    ul.topnav2 li.right, 
-    ul.topnav2 li{float: none;
+    ul.topnav li{float: none;
         ul.topnav li.right, 
     }
 }
@@ -154,22 +126,6 @@ ul.footer li {float: left;
 @media screen and (max-width: 600px) {
     ul.footer li {float: none;}
 }
-
-#page-container {
-    position: relative;
-    min-height: 100vh;
-  }
-  
-  #content-wrap {
-    padding-bottom: 2.5rem;    /* Footer height */
-  }
-  
-  #footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;            /* Footer height */
-  }
 
 
 
@@ -232,6 +188,7 @@ a {
     background-attachment: fixed;
     background-position: center;
     padding: 15px;
+    margin-top: 15px;
    
 }
 
@@ -307,10 +264,7 @@ a {
 
  .australia{
     background-image: url(./IMAGES/AUSTRALIA.png);
-    height: 100%;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 
 }
 
@@ -393,7 +347,6 @@ ul {
 }
 p{
     color: white;
-    padding: 15px 40px;
 }
 h1, h3 {
    padding: 0;
@@ -444,7 +397,7 @@ h2{
     grid-template-columns: 100px 100px;
     background-color: #fff;
     color: #444;
-    margin-bottom: 100px;
+    margin-bottom: 15px;
 }
 
 .a {
@@ -529,3 +482,29 @@ h2{
       flex-direction: column;
     }
   }
+
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+    margin: 15px;
+  }
+
+
+  .contactcolumn {
+    flex: 45%;
+    color: #071159;
+    background-color: rgba(220, 219, 226, 0.769);
+    border-radius: 10px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
+    padding: 8px 15px;
+  }
+
+  .contact img{
+    height: 30px;
+    /* width: 30px; */
+    margin-right: 5px;
+}
