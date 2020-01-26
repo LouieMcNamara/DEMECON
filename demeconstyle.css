@@ -157,19 +157,9 @@ a {
 /* IMAGES */
 
 @media screen and (max-width: 767px) {
-    .brandImage, .headerImage, .casestudyimage1, .casestudyimage1head, .casestudyimage2, .casestudyimage2head {background-attachment: initial;}
+    .brandImage, .casestudyimage1, .casestudyimage1head, .casestudyimage2, .casestudyimage2head {background-attachment: initial;}
 }
 
-.headerImage{
-    background: url(./IMAGES/Demecon03.jpg) no-repeat bottom; 
-    background-size: cover;
-    background-position: center;
-    padding: 8%;
-    text-align: center;
-    font-family: karla;
-    color: #ffffff;
-    margin-bottom: 20px;
-    }
 
 .footerImage{
     background: url(./IMAGES/DemeconCOVER.jpg) no-repeat; 
@@ -185,7 +175,7 @@ a {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    padding: 10px;
+    padding: 0px;
     text-align: center;
     font-family: karla;
     color: #ffffff;
@@ -193,11 +183,6 @@ a {
     margin-top: 10px;
  }
 
-.headerImage h1 {
-    font-size: 55px;
-    padding: 0px 0px 20px 0px;
-    margin: 0px;
-}
 
 .casestudyimage1{
     background: url(./IMAGES/CaseStudy01.jpg) no-repeat top; 
@@ -266,7 +251,20 @@ a {
     font-family: karla;
     src: url(./FONTS/Karla-Regular.ttf);
 }
+#logo{
+    font-size: 70px;
+    font-weight: bold;
+    padding: 0px;
+}
 
+.sectionheading{
+    font-size: 50px;
+    
+}
+
+.subheading1{
+    font-size: 30px;
+}
 body{
     font-family: karla;
 }
@@ -321,8 +319,22 @@ ul {
     margin: 0;
     padding: 15px;
 }
+p{
+    padding: 0px;
+}
+h1, h3 {
+   padding: 0;
+   margin: 0;
+}
 
+#header h1{
+    font-size: 90px;
+}
 
+h2{
+    font-size: 40px;
+    padding: 10px;
+}
 
 
 
