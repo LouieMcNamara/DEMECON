@@ -1,6 +1,6 @@
 /* NAVIGATION */
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: auto smooth;
 }
 .header{
 
@@ -22,6 +22,14 @@ ul.topnav {
     overflow: hidden;
     background-color:  rgba(255, 255, 255, 0.848);
 }
+
+ul.topnav2 {
+    list-style-type: none;
+    padding: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color:  rgba(255, 255, 255, 0.755);
+}
   
 #logonohover a:hover:not(.active) {
     background-color: rgba(255, 255, 255, 0.848);
@@ -30,6 +38,11 @@ ul.topnav {
 ul.topnav li {
     float: left;
     margin-right: 10px;
+}
+
+ul.topnav2 li {
+    float: left;
+    margin: 5px;
 }
   
 ul.topnav li a {
@@ -41,8 +54,17 @@ ul.topnav li a {
     text-decoration: none;
 }
 
+ul.topnav2 li a {
+    display: block;
+    color: #121f83;
+    font-family: karla;
+    text-align: center;
+    padding: 18px 25px;
+    text-decoration: none;
+}
+
 #phone{
-    padding: 10px 30px;
+    padding: 18px 30px;
 }
 
 .phone{
@@ -56,8 +78,21 @@ ul.topnav li a:hover:not(.active) {
     color: white;
     border-radius: 8px;
 }
+
+ul.topnav2 li a:hover:not(.active) {
+    background-color: #0b1877f1;
+    color: white;
+    border-radius: 8px;
+}
   
 ul.topnav li a.active {
+    list-style-type: none;
+    background-color:  #0b1877;
+    color: white;
+    border-radius: 8px;
+}
+
+ul.topnav2 li a.active {
     list-style-type: none;
     background-color:  #0b1877;
     color: white;
@@ -67,10 +102,18 @@ ul.topnav li a.active {
 ul.topnav li.right {
     float: right;
 }
+
+ul.topnav2 li.right {
+    float: right;
+}
   
 @media screen and (max-width: 600px) {
     ul.topnav li.right, 
-    ul.topnav li {float: none;}
+    ul.topnav li, 
+    ul.topnav2 li.right, 
+    ul.topnav2 li{float: none;
+        ul.topnav li.right, 
+    }
 }
 
 
@@ -79,6 +122,12 @@ ul.topnav li.right {
 #copyright{
     font-size: 8px;
     font-style: italic;
+}
+.home2footer{
+position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }
 
 /* #footer{
@@ -160,6 +209,13 @@ a {
     .brandImage, .casestudyimage1, .casestudyimage1head, .casestudyimage2, .casestudyimage2head {background-attachment: initial;}
 }
 
+.fullimage{
+    background: url(./IMAGES/DemeconCOVER.jpg) no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 
 .footerImage{
     background: url(./IMAGES/DemeconCOVER.jpg) no-repeat; 
@@ -168,6 +224,13 @@ a {
     background-position: center;
     padding: 15px;
    
+}
+
+.home2head{
+    text-align: center;
+    font-family: karla;
+    color: #ffffff;
+
 }
 
 .brandImage{
@@ -320,7 +383,8 @@ ul {
     padding: 15px;
 }
 p{
-    padding: 0px;
+    color: white;
+    padding: 15px 40px;
 }
 h1, h3 {
    padding: 0;
