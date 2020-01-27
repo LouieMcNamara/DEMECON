@@ -316,35 +316,52 @@ a {
 
 
 .casestudyimage1{
-    background: url(./IMAGES/CaseStudy01.jpg) no-repeat top; 
+    background: url(./IMAGES/CaseStudy01.jpg); 
+    background-color: #cccccc;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    padding-top: 500px;
+    position: relative;
     text-align: center;
     font-family: karla;
     color: #ffffff;
     margin-bottom: 20px;
-    margin-top: 10px;
-    
+    margin-top: 10px; 
 }
 
-.casestudyimage1head{
-    background: url(./IMAGES/./CaseStudy01\ head.jpg) no-repeat top; 
+
+ .casestudyimage1head{
+    background: url(./IMAGES/./CaseStudy01\ head.jpg); 
+    background-color: #cccccc;
+    padding: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    padding: 10px;
+    position: relative;
     text-align: center;
     font-family: karla;
     color: #ffffff;
-    margin-bottom: 20px;
-    margin-top: 50px;
  }
 
-.casestudyimage2{
-    background: url(./IMAGES/CaseStudy02.jpg) no-repeat top; 
+ .hero-imagecap {
+    background-image: url(./IMAGES/DemeconCOVER.jpg);
+    background-color: #cccccc;
+    padding: 20px;
+    background-position: top;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    padding-top: 500px;
+    position: relative;
+  }
+
+.casestudyimage2{
+    background: url(./IMAGES/CaseStudy02.jpg); 
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     text-align: center;
     font-family: karla;
     color: #ffffff;
@@ -353,21 +370,24 @@ a {
 }
 
 .casestudyimage2head{
-    background: url(./IMAGES/./CaseStudy02\ head.jpg) no-repeat top; 
+    background: url(./IMAGES/./CaseStudy02\ head.jpg); 
+    background-color: #cccccc;
+    padding: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    padding: 10px;
+    position: relative;
     text-align: center;
     font-family: karla;
     color: #ffffff;
-    margin-bottom: 20px;
-    margin-top: 50px;
  }
 
  .australia{
     background-image: url(./IMAGES/AUSTRALIA.png);
-    
-
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 
