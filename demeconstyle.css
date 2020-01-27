@@ -12,24 +12,22 @@ html{
 }
 
 #header{
-    padding-top: 15%;
+    padding-top: 5px;
     padding-bottom: 15%;
+    
+}
+#contactheader{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 ul.topnav {
     list-style-type: none;
     margin: 2%;
     padding: 5px 10px;
     overflow: hidden;
-    background-color:  rgba(255, 255, 255, 0.803);
-    border-radius: 8px;
+    /* background-color:  rgba(255, 255, 255, 0.803);
+    border-radius: 8px; */
 }
-
-
-  
-#logonohover a:hover:not(.active) {
-    background-color: rgba(255, 255, 255, 0.848);
-}
-
 ul.topnav li {
     float: left;
     margin-right: 10px;
@@ -41,37 +39,94 @@ ul.topnav li {
   
 ul.topnav li a {
     display: block;
-    color: #121f83;
+    color: #ffffffc2;
     font-family: karla;
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
 }
 
+ul.footer {
+    list-style-type: none;
+    margin: 2%;
+    padding: 5px 10px;
+    overflow: hidden;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+ul.footer li {
+    box-sizing: border-box;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    
+    
+}
+.border{
+    box-sizing: border-box;
+    border-top: 2px solid white;
+}
+
+
+ul.footer li a {
+    box-sizing: border-box;
+    display: block;
+    color: #ffffffc2;
+    font-family: karla;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+ul.footer li.right {
+    float: right;
+}
+  
+#logonohover a:hover:not(.active) {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+
+
 
 
 #phone{
+    box-sizing: border-box;
     padding: 10px 20px;
+}
+#phone a:hover:not(.active) {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
 }
 
 .phone{
-    border: 1px solid #0b1877;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
     border-radius: 8px;
 }
+/* .phone:hover{
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+} */
 
 
 ul.topnav li a:hover:not(.active) {
-    background-color: #0b1877f1;
+    /* background-color: #0b1877f1; */
     color: white;
-    border-radius: 8px;
+    /* border-radius: 8px; */
+    border-bottom: 2px solid white;
 }
 
   
 ul.topnav li a.active {
     list-style-type: none;
-    background-color:  #0b1877;
     color: white;
-    border-radius: 8px;
+    border-bottom: 4px solid white;
 }
 
   
@@ -85,6 +140,13 @@ ul.topnav li.right {
     ul.topnav li.right, 
     ul.topnav li{float: none;
         ul.topnav li.right, 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    ul.footer li.right, 
+    ul.footer li{float: none;
+        ul.footer li.right, 
     }
 }
 
@@ -162,9 +224,18 @@ a {
 
 .active {
     color: white;
-    background-color: #071159;
 }
 
+.headimagesection{
+   
+    padding: 0px;
+    text-align: center;
+    font-family: karla;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
 
 
 
@@ -178,6 +249,13 @@ a {
     background: url(./IMAGES/DemeconCOVER.jpg) no-repeat; 
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
+}
+
+.fullimage2{
+    background: url(./IMAGES/DemeconCOVER.jpg) no-repeat; 
+    height: 50%;
+    background-size: cover;
     background-position: center;
 }
 
@@ -319,6 +397,19 @@ body{
     margin-left: 2%;
     margin-right: 2%;
 }
+.introquote {
+    color: white;
+    font-family: karla;
+    text-align: center;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-right: 2%;
+}
 
 .triangleBullet {
     list-style-image: url(./IMAGES/TriangleBullet.png);
@@ -368,7 +459,9 @@ h2{
     }
 }
 
-
+.footerimage{
+    padding-top: 1px;
+}
 
 /* INFOMRATION */
 
@@ -451,7 +544,7 @@ h2{
   .iconcolumn {
     flex: 15%;
     color: #071159;
-    background-color: rgba(255, 255, 255, 0.769);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     margin-bottom: 1%;
     margin-top: 1%;
@@ -462,7 +555,6 @@ h2{
   .img-valign {
     vertical-align: middle;
     padding: 5px;
-    
   }
 
   .iconcolumn:hover{
@@ -508,3 +600,60 @@ h2{
     /* width: 30px; */
     margin-right: 5px;
 }
+
+.intro{
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 20px;
+}
+
+
+.prcontact {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    /* justify-content: center; */
+    box-sizing: border-box;
+    margin: 2% 5%;
+
+  }
+
+
+  .prcontactcolumn {
+    flex: 50%;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .prcontact img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+    padding: 0;
+    opacity: 0.5;
+}
+
+.prcontactcolumntext {
+    flex: 45%;
+    background-color: rgb(255, 255, 255);
+    
+  }
+
+
+  .prcontactcolumntext h3{
+    font-size: 30px;
+    color: rgb(32, 15, 133);
+  }
+
+
+#icn{
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 8px;
+    color: darkblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+

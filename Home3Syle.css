@@ -1,0 +1,255 @@
+/* NAVIGATION */
+
+ul.topnav {
+    list-style-type: none;
+    margin: 2%;
+    padding: 5px 10px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+#logonohover a:hover:not(.active) {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+ul.topnav li {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+ul.topnav li a {
+    display: block;
+    color: rgba(255, 255, 255, 0.55);
+    font-family: karla;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+#phone{
+    padding: 10px 20px;
+    color:rgba(255, 255, 255, 0.55);
+}
+
+.phone{
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
+#phone:hover{
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    color: white;
+}
+
+ul.topnav li a:hover:not(.active) {
+    color: white;
+}
+
+ul.topnav li a.active {
+    list-style-type: none;
+    color: white;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li{float: none;
+        ul.topnav li.right, 
+    }
+}
+
+
+
+
+/* BUTTONS AND LINKS */
+a:visited {
+    color: #121f83;
+  }
+
+a {
+   text-decoration:none;
+   color: #121f83;
+}
+
+
+
+.active {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+
+
+
+/* IMAGES */
+
+.fullimage{
+    background: url(./IMAGES/DemeconCOVER.jpg) no-repeat; 
+    background-size: cover;
+    margin-bottom: 10px;
+    padding-bottom: 80px;
+}
+
+.home3head{
+    text-align: center;
+    font-family: karla;
+    color: #ffffff;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+
+/* TEXT */
+
+
+@font-face {
+    font-family: karla;
+    src: url(./FONTS/Karla-Regular.ttf);
+}
+#logo{
+    font-size: 70px;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.sectionheading{
+    font-size: 50px;
+    
+}
+
+.subheading1{
+    font-size: 30px;
+}
+body{
+    font-family: karla;
+}
+
+.blurb {
+    color: #0b113c;
+    font-family: karla;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* padding-left: 90px;
+    padding-right: 90px; */
+    font-size: 16px;
+}
+
+.quote {
+    color: #121f83;
+    font-family: karla;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.triangleBullet {
+    list-style-image: url(./IMAGES/TriangleBullet.png);
+  }
+
+.triangleBulletupper {
+    list-style-image: url(./IMAGES/TriangleBullet.png);
+  }
+
+.triangleBulletupper li {
+    text-transform: uppercase;
+    padding: 2px;
+}
+
+span.a {
+    display: inline-block;
+}
+
+h2, h3{
+    text-transform: uppercase;
+}
+
+ul {
+    margin: 0;
+    padding: 15px;
+}
+p{
+    color: white;
+    padding: 10px 40px;
+}
+h1, h3 {
+   padding: 0;
+   margin: 0;
+}
+
+#header h1{
+    font-size: 90px;
+}
+
+h2{
+    font-size: 40px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    #header h1 {
+        font-size: 75px;
+    }
+}
+
+.prcontact {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 2% 8%;
+
+  }
+
+
+  .prcontactcolumn {
+    flex: 45%;
+    color: white;
+    background-color: rgb(0, 28, 170);
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .prcontact img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+    padding: 0;
+    opacity: 0.5;
+}
+
+.prcontact img:hover{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+    padding: 0;
+    opacity: 1;
+    
+}
+
+.prcontactcolumntext {
+    flex: 45%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 15%;
+  }
+
+
+  .prcontactcolumntext h3{
+    font-size: 30px;
+    color: rgb(32, 15, 133);
+  }
+
