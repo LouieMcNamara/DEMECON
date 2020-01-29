@@ -11,16 +11,14 @@ html{
     
 }
 
-#header{
-    padding-top: 5px;
-    padding-bottom: 5%;
-      
-}
 
 #header h1{
 margin-left: 10%;
   margin-right: 10%;
+  font-family: 'Times New Roman', Times, serif;
+    font-size: 90px;
 }
+
 
 #contactheader{
     padding-top: 5px;
@@ -498,20 +496,14 @@ h1, h3 {
    margin: 0;
 }
 
-#header h1{
-    font-size: 90px;
-}
+
 
 h2{
     font-size: 40px;
     padding: 10px;
 }
 
-@media screen and (max-width: 600px) {
-    #header h1 {
-        font-size: 75px;
-    }
-}
+
 
 .footerimage{
     padding-top: 1px;
@@ -860,4 +852,3 @@ text-align: center;
       text-align: left;
   }
 
-    
