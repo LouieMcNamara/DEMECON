@@ -117,20 +117,7 @@ ul.footer li.right {
 
 
 
-#phone{
-    box-sizing: border-box;
-    padding: 10px 20px;
-}
-#phone a:hover:not(.active) {
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-}
 
-.phone{
-    box-sizing: border-box;
-    border: 1px solid #ffffff;
-    border-radius: 8px;
-}
 /* .phone:hover{
     box-sizing: border-box;
     border: 2px solid #ffffff;
@@ -152,6 +139,25 @@ ul.topnav li a.active {
     border-bottom: 4px solid white;
 }
 
+#phone{
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+#phone:hover{
+    background-color: rgba(255, 255, 255, 0.372);
+    border: 1px solid white;
+}
+
+/* #phone a:hover:not(.active) {
+    background-color: rgb(85, 5, 5);
+    border: none;
+} */
+
+.phone{
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
   
 ul.topnav li.right {
     float: right;
@@ -457,7 +463,7 @@ body{
     color: #121f83;
     font-family: karla;
     text-align: left;
-    font-size: 7vw;
+    font-size: 50px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -704,7 +710,13 @@ text-align: center;
     margin-right: 2%;
 }
 
+@media screen and (max-width: 600px) {
+.indexintroquote {font-size: 7vw;}
+}
 
+@media screen and (max-width: 600px) {
+    .quote {font-size: 7vw;}
+    }
 
 .prcontact {
     display: flex;
