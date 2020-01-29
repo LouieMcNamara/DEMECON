@@ -16,8 +16,22 @@ html{
 margin-left: 10%;
   margin-right: 10%;
   font-family: 'Times New Roman', Times, serif;
-    font-size: 8vw;
+
 }
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    #header {
+      font-size: 4vw;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    #header {
+      font-size: 5vw;
+    }
+  }
 
 
 
@@ -514,9 +528,9 @@ h2{
 
 /* INFOMRATION */
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .infowrapper {float: none;}
-}
+} */
 
 .field{
     background-color: #121f8348;
@@ -531,6 +545,11 @@ h2{
     color: gray;
     font-size: 15px;
     font-family: karla;
+}
+@media screen and (max-width: 600px) {
+.field{
+    font-size: 3vw;
+}
 }
 
 .infowrapper {
