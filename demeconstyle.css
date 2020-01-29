@@ -16,8 +16,11 @@ html{
 margin-left: 10%;
   margin-right: 10%;
   font-family: 'Times New Roman', Times, serif;
-    font-size: 90px;
+    font-size: 8vw;
 }
+
+
+
 
 
 #contactheader{
@@ -783,6 +786,7 @@ text-align: center;
 
 #icn{
     background-color: white;
+    line-height: 23px;
     margin-left: 25%;
     margin-right: 25%;
     border-radius: 8px;
